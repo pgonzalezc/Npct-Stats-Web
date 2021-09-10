@@ -17,6 +17,13 @@ NpRepartoDB class >> benita [
 ]
 
 { #category : #accessing }
+NpRepartoDB class >> dolores [
+
+	dolores isNil ifTrue: [  dolores := STON fromString: self stonDolores ].
+	^ dolores
+]
+
+{ #category : #accessing }
 NpRepartoDB class >> pilar [
 
 	pilar isNil ifTrue: [  pilar := STON fromString: self stonPilar ].

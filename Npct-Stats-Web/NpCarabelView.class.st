@@ -166,6 +166,7 @@ NpCarabelView >> renderRepartosDropDownOn: html [
 NpCarabelView >> updateRoot: aRoot [
 
 	aRoot title: 'Carabel'.
+	"los recursos se encuentra definidos en el servidor web de página estáticas"
 	aRoot stylesheet url: 'static-files/css/bootstrap.min.4.3.1.css'.
 	aRoot javascript url: 'static-files/js/popper.min.js'.
 	aRoot javascript url: 'static-files/js/bootstrap.min.4.3.1.js'.
